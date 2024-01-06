@@ -4,8 +4,7 @@ const date = new Date();
 //年
 const year = date.getFullYear();
 //月
-let month = date.getMonth();
-month++;
+const month = date.getMonth() + 1;
 //日
 const nowDate = date.getDate();
 
